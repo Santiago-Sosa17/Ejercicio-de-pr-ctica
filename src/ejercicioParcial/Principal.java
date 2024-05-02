@@ -20,7 +20,6 @@ public class Principal {
 		int acumDeficienciaMalo = 0;
 		String termotanqueMinimo = "";
 		double minimaDefTermica = Double.MAX_VALUE;
-		String dios = "Fran";
 
 		do {
 			System.out.println("Ingrese el codigo de identificacion del termotanque: ");
@@ -62,7 +61,6 @@ public class Principal {
 				}
 				acumDeficienciaMalo = 0;
 				acumDeficiencia = 0;
-				
 			}
 
 		} while (!codigoTermotanque.equals(COMPARACION));
